@@ -1,0 +1,56 @@
+/*css初始化*/
+body,ul,li,div,dl,dt,dd,p,h1,h2,h3,h5,h6,a,input{
+	margin: 0;
+	padding: 0;
+	font-size: 12px;
+	color: #3e4041;
+}
+h1,h2,h3,h4,h5,h6{
+	font-weight: 400;
+}
+body{
+	/*background: #e5e6eb;*/
+	font-family: "microsoft yahei";
+}
+em,i{
+	font-style: normal;
+}
+li{
+	list-style: none;
+}
+img{
+	border: 0 none;
+	vertical-align: middle;
+}
+a{
+	text-decoration: none;
+	color: #63636e;
+	font-size: 12px;
+	
+}
+a:hover{
+	color: #f10215;
+}
+input,button{
+	border: 0 none;
+	outline-style: none;   /*清除轮廓线*/
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.clearfix:after{
+	display: block;
+	content: ".";
+	height: 0;
+	line-height: 0;
+	visibility: hidden;
+	clear: both;
+}
+.w{
+	width: 1002px;
+	margin:0 auto;
+}
+
